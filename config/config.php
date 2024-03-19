@@ -6,8 +6,8 @@
 			"company_name" => "Delmarvalous Handyman", 
 			"phone1" =>  "(302) 524-2252",
 			"phone2" =>  "(410) 603 1846", 		  //either no format or dashed format
-			"email" => "email@domain.com",   //by default is used as recipient email  
-			"address" => "Company Address", 
+			"email" => "1900sbrianpopp@gmail.com",   //by default is used as recipient email  
+			"address" => "Bethany Beach, DE 19930", 
 			
 			// email related
 			"site_key" => "6Lc23x0UAAAAACGIT_C0_gyWO3bkj6Q5n-f_pqbe",

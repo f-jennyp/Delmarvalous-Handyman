@@ -3,34 +3,38 @@
 	<div id="welcome">
 		<div class="row">
 			<div class="welcome-con">
-				<div class="foreword">WELCOME TO</div>
-				<h2>DELMARVALOUS HANDYMAN</h2>
-				<h3>YOUR ONE STOP HOME REPAIR & MAINTENANCE</h3>
+				<div class="top">
+					<div class="foreword">WELCOME TO</div>
+					<h2>DELMARVALOUS HANDYMAN</h2>
+					<h3>YOUR ONE STOP HOME REPAIR & MAINTENANCE</h3>
 
-				<p>At Delmarvalous Handyman we value honesty and integrity committed to excellence in home renovation
-					and repairs. With expertise through the years of experience, we transform and upgrade spaces for a
-					better living, we exceed client expectations and guaranteed satisfaction. Trust us to bring your
-					vision to life with unparalleled craftsmanship and dedication.</p>
+					<p>At Delmarvalous Handyman we value honesty and integrity committed to excellence in home
+						renovation
+						and repairs. With expertise through the years of experience, we transform and upgrade spaces for
+						a
+						better living, we exceed client expectations and guaranteed satisfaction. Trust us to bring your
+						vision to life with unparalleled craftsmanship and dedication.</p>
 
-				<div class="btn-holder">
-					<div class="btn">
-						<a href="<?php echo URL ?>about#content">LEARN MORE</a>
+					<div class="btn-holder">
+						<div class="btn">
+							<a href="<?php echo URL ?>about#content">LEARN MORE</a>
+						</div>
 					</div>
 				</div>
 
 				<div class="imgs flex">
 					<div class="img-holder">
-						<img loading="lazy" src="public/images/content/" alt="">
+						<img loading="lazy" src="public/images/content/wel-img1.jpg" alt="">
 						<h3>REMODEL</h3>
 					</div>
 
 					<div class="img-holder">
-						<img loading="lazy" src="public/images/content/" alt="">
+						<img loading="lazy" src="public/images/content/wel-img2.jpg" alt="">
 						<h3>REPAIRS</h3>
 					</div>
 
 					<div class="img-holder">
-						<img loading="lazy" src="public/images/content/" alt="">
+						<img loading="lazy" src="public/images/content/wel-img3.jpg" alt="">
 						<h3>MAINTENANCE</h3>
 					</div>
 				</div>
@@ -69,7 +73,7 @@
 
 				<div class="btn-holder">
 					<div class="btn">
-						<a href="<?php echo URL ?>about#content">LEARN MORE</a>
+						<a href="<?php echo URL ?>contact#content">GET A QUOTE</a>
 					</div>
 				</div>
 			</div>
@@ -77,23 +81,25 @@
 		</div>
 	</div>
 
-	<div id="section">
+	<div id="wedothat">
 		<div class="row">
-			<div class="title-like">WE DO THAT!</div>
-			<h1>AND WE GET IT DONE RIGHT.</h1>
+			<div class="wedo-con">
+				<div class="title-like">WE DO THAT!</div>
+				<h1>AND WE GET IT DONE RIGHT.</h1>
 
-			<h3>Delmarvalous Handyman redefines Innovation and quality with a commitment to excellence, we deliver
-				remarkable renovations, creating spaces that inspire and endure. </h3>
+				<h3>Delmarvalous Handyman redefines Innovation and quality with a commitment to excellence, we deliver
+					remarkable renovations, creating spaces that inspire and endure. </h3>
 
-			<div class="btn-holder">
-				<div class="btn">
-					Call us Today!
-					<a href="tel:<?php $this->info("phone1"); ?>">
-						<?php $this->info("phone1"); ?>
-					</a> |
-					<a href="tel:<?php $this->info("phone2"); ?>">
-						<?php $this->info("phone2"); ?>
-					</a>
+				<div class="btn-holder">
+					<div class="btn">
+						Call us Today!
+						<a href="tel:<?php $this->info("phone1"); ?>">
+							<?php $this->info("phone1"); ?>
+						</a> |
+						<a href="tel:<?php $this->info("phone2"); ?>">
+							<?php $this->info("phone2"); ?>
+						</a>
+					</div>
 				</div>
 			</div>
 		</div>
@@ -101,19 +107,19 @@
 
 	<div id="review">
 		<div class="row">
-			<div class="review-con">
+			<div class="review-con flex">
 				<div class="left">
-					<div class="flex">
-						<img loading="lazy" src="public/images/content/" alt="">
+					<div class="title flex">
+						<img loading="lazy" src="public/images/content/rev-quote.png" alt="">
 						<h1>What They Say</h1>
 					</div>
 
-					<div class="flex">
-						<div class="stars">&#9733;&#9733;&#9733;&#9733;&#9733;</div>
-						<div class="name">- Fred J</div>
+					<div class="name flex">
+						<div class="stars">&#9733; &#9733; &#9733; &#9733; &#9733;</div>
+						<div class="auth">- Fred J</div>
 					</div>
 
-					<div class="review">Brian was outstanding on what was a major remodel of a bathroom. We were moving
+					<div class="remarks">Brian was outstanding on what was a major remodel of a bathroom. We were moving
 						into a new house and the builder made a major mistake when ordering our master bath. He worked
 						around us moving into and arranging our house. Brian worked with the builder to make sure we got
 						the exact bathroom that we saw in the model with no compromises. The bathroom remodel far
@@ -130,28 +136,31 @@
 				</div>
 
 				<div class="right">
-
+					<img loading="lazy" src="public/images/content/review-img.jpg" alt="">
 				</div>
 			</div>
 		</div>
 	</div>
 
 	<div id="gallery">
-		<div class="row flex">
+		<div class="row">
+			<h1>Our Gallery</h1>
 			<div id="gall1" class="gallery-container">
 				<div class="top">
 					<ul class="gallery clearfix">
 						<li>
 							<a data-fancybox-group="default" class="thumbnail fancy" title=""
 								href="public/images/gallery/1.jpg">
-								<img loading="lazy" class="img-responsive" src="public/images/gallery/1.jpg" alt="gallery">
+								<img loading="lazy" class="img-responsive" src="public/images/gallery/1.jpg"
+									alt="gallery">
 							</a>
 						</li>
 
 						<li>
 							<a data-fancybox-group="default" class="thumbnail fancy" title=""
 								href="public/images/gallery/2.jpg">
-								<img loading="lazy" class="img-responsive" src="public/images/gallery/2.jpg" alt="gallery">
+								<img loading="lazy" class="img-responsive" src="public/images/gallery/2.jpg"
+									alt="gallery">
 							</a>
 						</li>
 					</ul>
@@ -162,36 +171,48 @@
 						<li>
 							<a data-fancybox-group="default" class="thumbnail fancy" title=""
 								href="public/images/gallery/3.jpg">
-								<img loading="lazy" class="img-responsive" src="public/images/gallery/3.jpg" alt="gallery">
+								<img loading="lazy" class="img-responsive" src="public/images/gallery/3.jpg"
+									alt="gallery">
 							</a>
 						</li>
 
 						<li>
 							<a data-fancybox-group="default" class="thumbnail fancy" title=""
 								href="public/images/gallery/4.jpg">
-								<img loading="lazy" class="img-responsive" src="public/images/gallery/4.jpg" alt="gallery">
+								<img loading="lazy" class="img-responsive" src="public/images/gallery/4.jpg"
+									alt="gallery">
 							</a>
 						</li>
 
 						<li>
 							<a data-fancybox-group="default" class="thumbnail fancy" title=""
 								href="public/images/gallery/5.jpg">
-								<img loading="lazy" class="img-responsive" src="public/images/gallery/5.jpg" alt="gallery">
+								<img loading="lazy" class="img-responsive" src="public/images/gallery/5.jpg"
+									alt="gallery">
 							</a>
 						</li>
 
 						<li>
 							<a data-fancybox-group="default" class="thumbnail fancy" title=""
 								href="public/images/gallery/6.jpg">
-								<img loading="lazy" class="img-responsive" src="public/images/gallery/6.jpg" alt="gallery">
+								<img loading="lazy" class="img-responsive" src="public/images/gallery/6.jpg"
+									alt="gallery">
 							</a>
 						</li>
 
 						<li>
 							<a data-fancybox-group="default" class="thumbnail fancy" title=""
 								href="public/images/gallery/7.jpg">
-								<img loading="lazy" class="img-responsive" src="public/images/gallery/7.jpg" alt="gallery">
+								<img loading="lazy" class="img-responsive" src="public/images/gallery/7.jpg"
+									alt="gallery">
+								<div class="btn-holder">
+									<div class="btn">
+										<a href="<?php echo URL ?>gallery#content">VIEW GALLERY</a>
+									</div>
+								</div>
 							</a>
+
+
 						</li>
 					</ul>
 				</div>

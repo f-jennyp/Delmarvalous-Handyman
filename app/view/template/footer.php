@@ -9,6 +9,8 @@
 					</div>
 
 					<div class="comp-info">
+						<a>Brian M. Popp</a>
+
 						<div class="phone content">
 							<div class="text-left">
 								<div class="label">Phone</div>
@@ -40,35 +42,36 @@
 						</div>
 
 						<div class="label">FOLLOU US:</div>
-						<a href="<?php $this->info('fb_link') ?>" target="_blank"><img loading="lazy"
-								src="public/images/content/" alt="facebook"></a>
-						<a href="<?php $this->info('gp_link') ?>" target="_blank"><img loading="lazy"
-								src="public/images/content/" alt="google"></a>
-
+						<div class="socials">
+							<a href="<?php $this->info('fb_link') ?>" target="_blank"><img loading="lazy"
+									src="public/images/content/fb.png" alt="facebook"></a>
+							<a href="<?php $this->info('gp_link') ?>" target="_blank"><img loading="lazy"
+									src="public/images/content/gp.png" alt="google"></a>
+						</div>
 					</div>
 				</div>
 
 				<div class="right">
-					<div class="contact-con">
+					<div id="contact" class="contact-con">
 						<h1>Contact Us</h1>
-						<div class="to-sm">I will be glad to answer your questions, Please fill out the form and send us
-							a message, i will get back to you right away.</div>
+						<p>I will be glad to answer your questions, Please fill out the form and send us a message, i
+							will get back to you right away.</p>
 						<form action="sendContactForm" method="post" class="sends-email ctc-form">
 
 							<label><span class="ctc-hide">Name</span>
-								<input type="text" name="name" placeholder="Name">
+								<input type="text" name="name" placeholder="Name:">
 							</label>
 
 							<label><span class="ctc-hide">Email</span>
-								<input type="text" name="email" placeholder="Email">
+								<input type="text" name="email" placeholder="Email:">
 							</label>
 
 							<label><span class="ctc-hide">Phone</span>
-								<input type="text" name="phone" placeholder="Phone">
+								<input type="text" name="phone" placeholder="Phone;">
 							</label>
 
 							<label><span class="ctc-hide">Message</span>
-								<textarea name="message" cols="30" rows="10" placeholder="Message"></textarea>
+								<textarea name="message" cols="30" rows="10" placeholder="Message:"></textarea>
 							</label>
 
 							<label for="g-recaptcha-response"><span class="ctc-hide">Recaptcha</span></label>
@@ -91,7 +94,7 @@
 
 							<div class="g-recaptcha"></div>
 
-							<button type="submit" class="ctcBtn btn hvr-grow hvr-sweep-to-top" disabled>Submit</button>
+							<button type="submit" class="ctcBtn btn hvr-grow hvr-sweep-to-top" disabled>SUBMIT</button>
 						</form>
 					</div>
 				</div>
@@ -101,24 +104,22 @@
 	<div class="bottom">
 		<div class="row flex">
 			<div class="nav-holder">
-				<div class="flex">
-					<nav>
-						<ul>
-							<li <?php $this->helpers->isActiveMenu("home"); ?>><a href="<?php echo URL ?>">HOME</a>
-							</li>
-							<li <?php $this->helpers->isActiveMenu("about"); ?>><a
-									href="<?php echo URL ?>about#content">ABOUT</a></li>
-							<li <?php $this->helpers->isActiveMenu("services"); ?>><a
-									href="<?php echo URL ?>services#content">SERVICES</a></li>
-							<li <?php $this->helpers->isActiveMenu("reviews"); ?>><a
-									href="<?php echo URL ?>reviews#content">REVIEWS</a></li>
-							<li <?php $this->helpers->isActiveMenu("gallery"); ?>><a
-									href="<?php echo URL ?>gallery#content">GALLERY</a></li>
-							<li <?php $this->helpers->isActiveMenu("contact"); ?>><a
-									href="<?php echo URL ?>contact#content">CONTACT US</a></li>
-						</ul>
-					</nav>
-				</div>
+				<nav>
+					<ul>
+						<li <?php $this->helpers->isActiveMenu("home"); ?>><a href="<?php echo URL ?>">HOME</a>
+						</li>
+						<li <?php $this->helpers->isActiveMenu("about"); ?>><a
+								href="<?php echo URL ?>about#content">ABOUT</a></li>
+						<li <?php $this->helpers->isActiveMenu("services"); ?>><a
+								href="<?php echo URL ?>services#content">SERVICES</a></li>
+						<li <?php $this->helpers->isActiveMenu("reviews"); ?>><a
+								href="<?php echo URL ?>reviews#content">REVIEWS</a></li>
+						<li <?php $this->helpers->isActiveMenu("gallery"); ?>><a
+								href="<?php echo URL ?>gallery#content">GALLERY</a></li>
+						<li <?php $this->helpers->isActiveMenu("contact"); ?>><a
+								href="<?php echo URL ?>contact#content">CONTACT US</a></li>
+					</ul>
+				</nav>
 			</div>
 
 
