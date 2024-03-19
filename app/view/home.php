@@ -24,17 +24,17 @@
 
 				<div class="imgs flex">
 					<div class="img-holder">
-						<img loading="lazy" src="public/images/content/wel-img1.jpg" alt="">
+						<img loading="lazy" src="public/images/content/wel-img1.jpg" alt="REMODEL" class="hvr-grow">
 						<h3>REMODEL</h3>
 					</div>
 
 					<div class="img-holder">
-						<img loading="lazy" src="public/images/content/wel-img2.jpg" alt="">
+						<img loading="lazy" src="public/images/content/wel-img2.jpg" alt="REPAIRS" class="hvr-grow">
 						<h3>REPAIRS</h3>
 					</div>
 
 					<div class="img-holder">
-						<img loading="lazy" src="public/images/content/wel-img3.jpg" alt="">
+						<img loading="lazy" src="public/images/content/wel-img3.jpg" alt="MAINTENANCE" class="hvr-grow">
 						<h3>MAINTENANCE</h3>
 					</div>
 				</div>
@@ -46,7 +46,7 @@
 	<div id="services">
 		<div class="row">
 
-			<div class="services-con">
+			<div class="services-con reveal fade-left active">
 				<h1>Our Services</h1>
 				<p>Delmarvalous Handyman provides professional and affordable high-quality home renovation and repair
 					services we are a team of professionals dedicated to delivering outstanding craftsmanship and
@@ -136,7 +136,7 @@
 				</div>
 
 				<div class="right">
-					<img loading="lazy" src="public/images/content/review-img.jpg" alt="">
+					<img loading="lazy" src="public/images/content/review-img.jpg" alt="review" class="hvr-grow">
 				</div>
 			</div>
 		</div>

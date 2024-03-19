@@ -46,7 +46,7 @@
 	define('MVC', dirname(__DIR__) . '/' . 'app' . '/');
 	define('URL_PUBLIC_FOLDER', '');
 	// change to https once its uploaded
-	define('URL_PROTOCOL', 'http://'); 
+	define('URL_PROTOCOL', 'https://'); 
 	define('URL_DOMAIN', $_SERVER['HTTP_HOST']);
 	define('URL_SUB_FOLDER', str_replace(URL_PUBLIC_FOLDER, '', dirname($_SERVER['SCRIPT_NAME'])));
 	if(substr(URL_PROTOCOL . URL_DOMAIN . URL_SUB_FOLDER, -1) == '/') {

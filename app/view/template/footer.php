@@ -170,73 +170,38 @@
 	window.addEventListener("scroll", reveal);
 
 	// HEADER FIXED
-	document.addEventListener("DOMContentLoaded", function () {
-		var header = document.getElementById("header");
-		var logoImg = document.querySelector("#header .logo-holder img");
+	// document.addEventListener("DOMContentLoaded", function () {
+	// 	var header = document.getElementById("header");
+	// 	var logoImg = document.querySelector("#header .logo-holder img");
 
-		function updateHeader() {
-			if (window.scrollY > 0) {
-				header.classList.add("fixed");
-			} else {
-				header.classList.remove("fixed");
-			}
+	// 	function updateHeader() {
+	// 		if (window.scrollY > 0) {
+	// 			header.classList.add("fixed");
+	// 		} else {
+	// 			header.classList.remove("fixed");
+	// 		}
 
-			// Resize logo image based on scroll position
-			var maxImgWidth = 250;
-			var scrolledPercentage = Math.min(1, window.scrollY / 100); // You can adjust the factor based on your design
-			var newImgWidth = maxImgWidth + (1 - scrolledPercentage) * (logoImg.width - maxImgWidth);
-			logoImg.style.maxWidth = newImgWidth + "px";
-		}
+	// 		// Resize logo image based on scroll position
+	// 		var maxImgWidth = 250;
+	// 		var scrolledPercentage = Math.min(1, window.scrollY / 100); // You can adjust the factor based on your design
+	// 		var newImgWidth = maxImgWidth + (1 - scrolledPercentage) * (logoImg.width - maxImgWidth);
+	// 		logoImg.style.maxWidth = newImgWidth + "px";
+	// 	}
 
-		// Initial call to set header and image size
-		updateHeader();
+	// 	// Initial call to set header and image size
+	// 	updateHeader();
 
-		window.addEventListener("scroll", function () {
-			updateHeader();
+	// 	window.addEventListener("scroll", function () {
+	// 		updateHeader();
 
-			// Check if scroll position is at the top
-			if (window.scrollY === 0) {
-				// Reset the image size when back at the top
-				logoImg.style.maxWidth = "489px"; // Adjust the original max-width value
-			}
-		});
-	});
+	// 		// Check if scroll position is at the top
+	// 		if (window.scrollY === 0) {
+	// 			// Reset the image size when back at the top
+	// 			logoImg.style.maxWidth = "489px"; // Adjust the original max-width value
+	// 		}
+	// 	});
+	// });
 
-	// DROPDOWN SERVICES
-	function myFunction() {
-		var dropdownContent = document.getElementById("myDropdown");
-		dropdownContent.classList.toggle("show-down");
-	}
-
-	window.onclick = function (e) {
-		if (!e.target.matches('.dropbtn')) {
-			var dropdowns = document.getElementsByClassName("dropdown-content");
-			for (var i = 0; i < dropdowns.length; i++) {
-				var openDropdown = dropdowns[i];
-				if (openDropdown.classList.contains('show-down')) {
-					openDropdown.classList.remove('show-down');
-				}
-			}
-		}
-	}
-
-	// DROPUP FOOTER SERVICES
-	function myFunction2() {
-		var dropupContent = document.getElementById("myDropup");
-		dropupContent.classList.toggle("show-up");
-	}
-
-	window.onclick = function (e) {
-		if (!e.target.matches('.dropupbtn')) {
-			var dropups = document.getElementsByClassName("dropup-content");
-			for (var i = 0; i < dropups.length; i++) {
-				var openDropup = dropups[i];
-				if (openDropup.classList.contains('show-up')) {
-					openDropup.classList.remove('show-up');
-				}
-			}
-		}
-	}
 </script>
 
 <?php if ($this->siteInfo['cookie']): ?>

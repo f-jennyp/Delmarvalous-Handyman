@@ -57,10 +57,10 @@
 				</nav>
 
 				<div class="contact">
-					<div class="h-phone"><a href="mailto:<?php $this->info("phone1"); ?>">
+					<div class="h-phone"><a href="tel:<?php $this->info("phone1"); ?>">
 							<?php $this->info("phone1"); ?>
 						</a></div>
-					<div class="h-phone"><a href="mailto:<?php $this->info("phone2"); ?>">
+					<div class="h-phone"><a href="tel:<?php $this->info("phone2"); ?>">
 							<?php $this->info("phone2"); ?>
 						</a></div>
 				</div>
@@ -72,7 +72,7 @@
 	<div id="banner">
 		<div class="row">
 			<div class="banner-con">
-				<div class="top">
+				<div class="top cssanimation fadeInBottom">
 					<div class="ban-title">Premium Quality Results</div>
 					<h2>For All Your Home Fix Needs</h2>
 					<div class="to-sm">Trusted Ally for Home Improvement & Repairs</div>
